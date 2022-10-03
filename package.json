@@ -1,0 +1,23 @@
+{
+  "name": "kidd254-microverse_trials_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kidd254/Kidd254-Microverse_trials_exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kidd254/Kidd254-Microverse_trials_exercise/issues"
+  },
+  "homepage": "https://github.com/Kidd254/Kidd254-Microverse_trials_exercise#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
