@@ -10,12 +10,12 @@
 
     <body>
         <h1>Lawrence & Valentine Survey Form</h1>
-        <div id="img-div">
+        <section id="img-div">
             <figcaption id="img-caption"> rest in peace</figcaption>
 
             <img id="image">
 
-        </div>
+        </section>
         <h1 id="tribute-info"> Hello World!</h1>
         <a id="tribute-link" target="_blank" href="#"></a>
         <p id="description">Take your time to fill our survey Form</p>
@@ -26,26 +26,28 @@
             <input type="email" id="email" placeholder="Enter your email" required>
             <label id="number-label">Number</label>
             <input type="number" id="number" min="0" max="9999999999" placeholder="Enter your number">
-            <div>
+            <section>
                 <p>Select A Microverse Pair Programmer</p>
                 <select name="programmer" id="dropdown">
                     <option value="Lawrence">Lawrence</option>
                     <option value="Valentine">Valentine</option>
                     <option value="John">John</option>
                 </select>
-            </div>
-            <fieldset class="form-group">
-                <p>Select the Country</p>
-                <label> <input name="country" value="Kenya" type="radio">Kenya</label>
-                <label><Input name="country" value="Nigeria" type="radio">Nigeria</label>
-            </fieldset>
-            <fieldset class="form-group">
-                <p>Select the City</p>
-                <label> <input name="city" value="Nairobi" type="radio">Nairobi</label>
-                <label><Input name="city" value="Lagos" type="radio">Lagos</label>
-            </fieldset>
+            </section>
+            <section>
+                <fieldset class="form-group">
+                    <p>Select the Country</p>
+                    <label> <input name="country" value="Kenya" type="radio">Kenya</label>
+                    <label><Input name="country" value="Nigeria" type="radio">Nigeria</label>
+                </fieldset>
+                <fieldset class="form-group">
+                    <p>Select the City</p>
+                    <label> <input name="city" value="Nairobi" type="radio">Nairobi</label>
+                    <label><Input name="city" value="Lagos" type="radio">Lagos</label>
+                </fieldset>
+            </section>section>
 
-            <div>
+            <section>
                 <P>Select Some Programming languages</P>
                 <label for="checkbox-1"></label>
                 <input type="checkbox" name="JavaScript" Value="JavaScript">
@@ -53,28 +55,14 @@
                 <input type="checkbox" name="Css" Value="Css">
                 <input type="checkbox" name="Python" Value="Python">
 
-            </div>
-            <div>
+            </section>
+            <section>
                 <p>Tell Us More!</p>
                 <textarea name="text-area" id="" cols="30" rows="10"></textarea>
-            </div>
+            </section>
             <button type="submit" id="submit">Submit</button>
         </form>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-        <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-        <script src="js/index.js"></script>
     </body>
 </main>
 
